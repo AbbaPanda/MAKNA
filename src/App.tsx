@@ -1,15 +1,20 @@
 import './App.css';
 import { PRIMARY_NAV_ITEMS } from './assets/components/constant/header';
 import Header from './assets/components/layout/header';
+import HeroSection from './assets/components/section/hero';
 
 function App() {
   return (
-    <main className="bg-gray-800 min-h-screen w-full">
+    <a className="">
       <div>
         <Header navItems={PRIMARY_NAV_ITEMS} />
       </div>
-    </main>
+      <main>
+        <HeroSection />
+      </main>
+    </a>
   );
 }
 
 export default App;
+ 
